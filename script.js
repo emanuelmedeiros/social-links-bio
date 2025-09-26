@@ -12,16 +12,10 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute(
-      "alt",
-      "foto de Mayk Brito sorrindo, oculos escuros e jaqueta preta"
-    )
+    img.setAttribute("src", "./assets/avatar2-light.png")
+    img.setAttribute("alt", "foto ilustrativa de perfil, pessoa com oculos")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute(
-      "alt",
-      "foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo"
-    )
+    img.setAttribute("src", "./assets/avatar2.png")
+    img.setAttribute("alt", "foto ilustrativa de perfil")
   }
 }
